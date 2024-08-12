@@ -1,0 +1,136 @@
+{
+    "title":"Portafolio",
+    "welcome":"¡Hola! Soy",
+    "text-name":"Mauro Mizhquiri",
+    "profession":"Desarrollador",
+    "category":"FullStack",
+    "level":"Jr",
+    "navigation":{
+        "home":"Inicio",
+        "projects":"Proyectos",
+        "skills":"Habilidades",
+        "studies":"Estudios",
+        "about":"Sobre mí",
+        "contact":"Contacto"
+    },
+    "presentation":"Con una sólida experiencia de más de un año en la creación de sitios web dinámicos y eficientes, domino tanto tecnologías front-end como HTML5, CSS3, JavaScript, TypeScript, así como frameworks como React, Angular y Astro. También tengo experiencia en tecnologías back-end como Spring Boot, Flask, y bases de datos como PostgreSQL y MySQL. Me destaco en transformar diseños creativos en experiencias de usuario interactivas, así como en optimizar el rendimiento y la velocidad de los sitios web.",
+    "curriculum":{
+        "contact":"Hablemos",
+        "cv":"Ver Curriculum"
+    },
+    "footer":{
+        "whatsapp":"Whatsapp",
+        "github":"Github",
+        "email":"Correo Electrónico",
+        "linkedin":"Linkedin"
+    },
+    "about":"Soy Ingeniero en Ciencias de la Computación, especializado en desarrollo FullStack. Desde el comienzo de mi carrera, me enamoré del desarrollo web, un campo que he abrazado con gran pasión y dedicación. Mi enfoque autodidacta me impulsa a aprender y dominar constantemente nuevas tecnologías para mejorar mis habilidades y mantenerme a la vanguardia. Me considero una persona responsable y creativa, destacándome en el trabajo en equipo y en la superación de desafíos. Resolver problemas es una de mis mayores motivaciones, y disfruto enormemente enfrentando nuevos retos en el desarrollo. Mi objetivo es seguir profundizando en mi conocimiento y expertise en el desarrollo web, explorando herramientas y técnicas innovadoras para ofrecer soluciones cada vez más efectivas y vanguardistas.",
+    "studies":[
+        {"title":"Ingenieriería en Ciencias de la computación",
+        "place":"Universidad de Cuenca - Ecuador",
+        "date":"2018-2024",
+        "state":"Egresado"},
+        {
+        "title":"Programación Web PHP",
+        "place":"Polotic TIC Misiones",
+        "date":"2021",
+        "state":"Terminado"
+        },
+        {
+        "title":"Desarrollo Web",
+        "place":"Udemy",
+        "date":"2022-2024",
+        "state":"Cursando"
+        }
+    ],
+    "projects":{
+        
+        "myProjects":[
+            {
+                "img":"./../../img/jimdo.webp",
+                "title":"Creación de páginas web",
+                "repository":"https://github.com/Mauricio-Mizhquiri/product-delivery-system-using-view-controller-modeling.git",
+                "url":"https://www.jimdo.com/es/?ref=a1009257&aff_info=14079646082620088",
+                "description":"Jimdo tiene todas las herramientas digitales necesarias para crear, por ejemplo, una web personalizada que cumple con el RGPD o una tienda online abierta 24 horas los 7 días de la semana.",
+                "badges":[
+                    {
+                        "label":"React"
+                    },
+                    {
+                        "label":"TypeScript"
+                    },
+                    {
+                        "label":"CSS3"
+                    },
+                    {
+                        "label":"Vite"
+                    }
+                
+                ]
+
+            },
+            {
+                "img":"./../../img/weebly.webp",
+                "title":"Creador de sitios web",
+                "repository":"https://github.com/Mauricio-Mizhquiri/100-Days-of-Code-Python-Developer-Challenge-2022.git",
+                "url":"https://www.weebly.com/?afftrack=14079646082620088",
+                "description":"Obtén acceso a diseños de páginas web personalizables y herramientas útiles para crear tu sitio web y hacer crecer tu negocio ideal. Crea fácilmente un sitio web gratuito para ayudarte a ser descubierto y hacer crecer tu base de clientes con estilo. ",
+                "badges":[
+                    {
+                        "label":"HTML"
+                    },
+                    {
+                        "label":"TypeScript"
+                    },
+                    {
+                        "label":"CSS3"
+                    },
+                    {
+                        "label":"Material UI"
+                    }
+                
+                ]
+
+            },
+            {
+                "img":"./../../img/jimdo.webp",
+                "title":"Creación de páginas web",
+                "repository":"https://github.com/Mauricio-Mizhquiri/product-delivery-system-using-view-controller-modeling.git",
+                "url":"https://www.jimdo.com/es/?ref=a1009257&aff_info=14079646082620088",
+                "description":"Jimdo tiene todas las herramientas digitales necesarias para crear, por ejemplo, una web personalizada que cumple con el RGPD o una tienda online abierta 24 horas los 7 días de la semana.",
+                "badges":[
+                    {
+                        "label":"React"
+                    },
+                    {
+                        "label":"TypeScript"
+                    },
+                    {
+                        "label":"CSS3"
+                    },
+                    {
+                        "label":"Vite"
+                    }
+                
+                ]
+
+            }
+        ]
+    },
+   "badges":{
+        "website":"Sitio Web",
+        "repository":"Repositorio"
+   },
+   "experience":{
+        "myExperience":[
+            {
+               "company":"Futura EC Software y Consultoria",
+               "position":"Desarrollador FullStack",
+               "season":"Julio 2023 - Septiembre 2023",
+               "description":"Durante mi experiencia como pasante, tuve la oportunidad de desarrollar un proyecto completo, abarcando tanto el frontend como el backend, utilizando diversas tecnologías como Angular, React, TypeScript, Flask, Spring Boot y MySQL. Esta pasantía fue una experiencia colaborativa esencial para mi crecimiento profesional, donde trabajé en equipo y adquirí una comprensión profunda del trabajo en conjunto y la importancia de entregar proyectos de alta calidad.",
+               "website":"https://www.futura.ec/"
+            }
+        ]
+   }
+    
+}

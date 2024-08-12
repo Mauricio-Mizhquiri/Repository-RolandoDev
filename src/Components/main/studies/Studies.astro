@@ -1,0 +1,116 @@
+---
+import i18next, { t } from "i18next";
+
+type Study = {
+    title:string,
+    place:string,
+    date:string,
+    state:string
+}
+type Experience = {
+    company:string;
+    position:String;
+    season:string;
+    description:string;
+    website:string
+}
+const studies:Study[] = t("studies",{returnObjects:true}) as Study[];
+const studiesArray = Array.isArray(studies) ? studies : [];
+const experience:Experience[]= t("experience.myExperience",{returnObjects:true})as Experience[]
+const experienceArray = Array.isArray(experience) ? experience : [];
+---
+
+<section class="section-studies">
+    <div class="linear-grandient-1"></div>
+    <div class="content-studies">
+        <h3 class="title-studies" id="studies">{t("navigation.studies")}</h3>
+        <div class="container-studies">
+            <ul class="ul-studies">
+                {
+                    studiesArray.map(({ date, title, place, state }:Study) => (
+                        <li class="li-studies">
+                            <span class="circle" />
+                            <div>
+                                <h3>{title}</h3>
+                                <p>{place}</p>
+                                <span>{date}</span>
+                                <p>{state}</p>
+                            </div>
+                        </li>
+                    ))
+                }
+            </ul>
+        </div>
+    </div>
+</section>
+<style>
+    .section-studies{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background: #111111;
+        justify-content: center;
+        align-items: center;
+    }
+    .linear-grandient-1{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, #005cd4, #000);
+        background: ;
+        z-index: 0;
+    }
+    .content-studies{
+        position: relative;
+        z-index: 1;
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 20px 0;
+        max-width: 1355px;
+    }
+    .title-studies {
+        font-size: 27px;
+        color: #f6f6f9;
+        text-align: left;
+        width: 100%;
+        font-weight: 800;
+        scroll-margin-top: 80px;
+        padding: 20px 0;
+    }
+    .ul-studies {
+        padding: 30px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .li-studies {
+        padding: 0px 20px;
+        color: #f6f6f9;
+        border-left: 1px solid #f6f6f9;
+        list-style: none;
+        position: relative;
+        padding-bottom: 50px;
+    }
+    .circle {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        left: -5px;
+        top: 5px;
+        background-color: #f6f6f9;
+    }
+    .li-studies h3 {
+        padding-bottom: 5px;
+        font-weight: 200;
+    }
+    .li-studies p {
+        padding: 5px 0;
+    }
+    .li-studies span {
+        font-size: 13px;
+    }
+</style>

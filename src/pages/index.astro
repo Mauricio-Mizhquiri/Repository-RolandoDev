@@ -1,0 +1,27 @@
+---
+import i18next, { t, changeLanguage } from "i18next";
+import "../styles/index.css";
+import Header from "../Components/header/Header.astro";
+import Main from "../Components/main/main.astro";
+import Footer from "../Components/footer/Footer.astro";
+
+changeLanguage("es");
+---
+
+<html lang={i18next.language}>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Portafolio | Mauro Mizhquiri</title>
+		<script
+			src="https://kit.fontawesome.com/2898a0ac51.js"
+			crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<Header />
+		<Main />
+		<Footer />
+	</body>
+</html>

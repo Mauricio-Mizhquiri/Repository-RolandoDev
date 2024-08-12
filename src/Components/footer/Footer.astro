@@ -1,0 +1,104 @@
+---
+import i18next, { t } from "i18next";
+---
+
+<footer>
+    <section class="section-footer">
+        <div class="linear-gradient-1"></div>
+        <div class="container-footer">
+            <h2 class="title-contact" id="contact">
+                {t("navigation.contact")}
+            </h2>
+            <div class="container-redes">
+                <a href="https://wa.me/593987266475" target="_blank">
+                    <li class="li-contact">
+                        <i class="fa-brands fa-whatsapp icon-whatsapp"></i>
+                        <p>{t("footer.whatsapp")}</p>
+                    </li>
+                </a>
+                <a href="https://github.com/Mauricio-Mizhquiri" target="_blank">
+                    <li class="li-contact">
+                        <i class="fa-brands fa-github"></i>
+                        <p>{t("footer.github")}</p>
+                    </li>
+                </a>
+                <a
+                    href="mailto:rolando.mizhquiri@gmail.com"
+                    target="_blank"
+                >
+                    <li class="li-contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>{t("footer.email")}</p>
+                    </li>
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/mauro-mizhquiri-536029126/"
+                    target="_blank"
+                >
+                    <li class="li-contact">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <p>{t("footer.linkedin")}</p>
+                    </li>
+                </a>
+            </div>
+        </div>
+    </section>
+</footer>
+
+<style>
+    .linear-gradient-1 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, #005cd4, #000);
+        z-index: 0;
+    }
+    .section-footer {
+        position: relative;
+        width: 100%;
+        background-color: #111111;
+    }
+    .container-footer {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0;
+        max-width: 1355px;
+    }
+    .title-contact {
+        color: #f6f6f9;
+        padding: 10px 0;
+        font-size: 25px;
+        font-weight: 700;
+        scroll-margin-top: 80px;
+    }
+    .container-redes {
+        position: relative;
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        padding: 30px 0;
+        flex-wrap: wrap;
+    }
+
+    .container-redes a {
+        text-decoration: none;
+        color: #f6f6f9;
+    }
+    .li-contact {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        transition: color 0.2s ease-in-out;
+    }
+    .li-contact i {
+        font-size: 30px;
+    }
+
+    .li-contact:hover {
+        color: #005cd4;
+    }
+</style>

@@ -1,0 +1,137 @@
+{
+    "title":"Portfolio",
+    "welcome":"Hello! I am",
+    "text-name":"Mauro Mizhquiri",
+    "profession":"Developer",
+    "category":"FullStack",
+    "level":"Jr",
+    "navigation": {
+      "home": "Home",
+      "projects": "Projects",
+      "skills": "Skills",
+      "studies": "Studies",
+      "about": "About Me",
+      "contact": "Contact"
+    },
+    "footer":{
+        "whatsapp":"Whatsapp",
+        "github":"Github",
+        "email":"Email",
+        "linkedin":"Linkedin"
+    },
+    "presentation":"With over a year of solid experience in creating dynamic and efficient websites, I am proficient in both front-end technologies such as HTML5, CSS3, JavaScript, TypeScript, as well as frameworks like React, Angular, and Astro. I also have experience in back-end technologies such as Spring Boot, Flask, and databases like PostgreSQL and MySQL. I excel at transforming creative designs into interactive user experiences and optimizing website performance and speed.",
+    "curriculum":{
+        "contact":"Let's Talk",
+        "cv":"View Resume"
+    },
+    "about":"I am a Computer Science Engineer specializing in FullStack Development. From the beginning of my career, I fell in love with web development, a field I have embraced with great passion and dedication. My self-taught approach drives me to continuously learn and master new technologies to enhance my skills and stay at the forefront. I consider myself a responsible and creative individual, excelling in teamwork and overcoming challenges. Solving problems is one of my greatest motivations, and I thoroughly enjoy tackling new challenges in development. My goal is to further deepen my knowledge and expertise in web development, exploring innovative tools and techniques to deliver increasingly effective and cutting-edge solutions.",
+    "studies": [
+  {
+    "title": "Engineering in Computer Science",
+    "place": "University of Cuenca - Ecuador",
+    "date": "2018-2024",
+    "state": "Graduated"
+  },
+  {
+    "title": "Web Programming PHP",
+    "place": "Polotic TIC Misiones",
+    "date": "2021",
+    "state": "Completed"
+  },
+  {
+    "title": "Web Development",
+    "place": "Udemy",
+    "date": "2022-2024",
+    "state": "Ongoing"
+  }
+  	],
+
+"projects": {
+    "myProjects": [
+        {
+            "img": "./../../img/jimdo.webp",
+            "title": "Website Creation",
+            "repository": "https://github.com/Mauricio-Mizhquiri/product-delivery-system-using-view-controller-modeling.git",
+            "url": "https://www.jimdo.com/?ref=a1009257&aff_info=14079646082620088",
+            "description": "Jimdo has all the digital tools needed to create, for example, a custom website that complies with GDPR or an online store open 24/7.",
+            "badges": [
+                {
+                    "label": "React"
+                },
+                {
+                    "label": "TypeScript"
+                },
+                {
+                    "label": "CSS3"
+                },
+                {
+                    "label": "Vite"
+                }
+            ]
+        },
+        {
+            "img": "./../../img/weebly.webp",
+            "title": "Website Builder",
+            "repository": "https://github.com/Mauricio-Mizhquiri/100-Days-of-Code-Python-Developer-Challenge-2022.git",
+            "url": "https://www.weebly.com/?afftrack=14079646082620088",
+            "description": "Get access to customizable website designs and useful tools to create your site and grow your ideal business. Easily create a free website to help you get discovered and grow your customer base in style. ",
+            "badges": [
+                {
+                    "label": "HTML"
+                },
+                {
+                    "label": "TypeScript"
+                },
+                {
+                    "label": "CSS3"
+                },
+                {
+                    "label": "Material UI"
+                }
+            ]
+        },
+        {
+            "img": "./../../img/jimdo.webp",
+            "title": "Website Creation",
+            "repository": "https://github.com/Mauricio-Mizhquiri/product-delivery-system-using-view-controller-modeling.git",
+            "url": "https://www.jimdo.com/?ref=a1009257&aff_info=14079646082620088",
+            "description": "Jimdo has all the digital tools needed to create, for example, a custom website that complies with GDPR or an online store open 24/7.",
+            "badges": [
+                {
+                    "label": "React"
+                },
+                {
+                    "label": "TypeScript"
+                },
+                {
+                    "label": "CSS3"
+                },
+                {
+                    "label": "Vite"
+                }
+            ]
+        }
+    ]
+},
+"badges": {
+    "website": "Website",
+    "repository": "Repository"
+}
+,
+"experience": {
+    "myExperience": [
+        {
+            "company": "FuturaEC",
+            "position": "FullStack Developer",
+            "season": "July 2023 - September 2023",
+            "description": "During my internship, I had the opportunity to develop a complete project, covering both frontend and backend, utilizing various technologies such as Angular, React, TypeScript, Flask, Spring Boot, and MySQL. This internship was a crucial collaborative experience for my professional growth, where I worked in a team and gained a deep understanding of teamwork and the importance of delivering high-quality projects.",
+            "website":"https://www.futura.ec/"
+        }
+    ]
+}
+
+
+    
+
+  }
+  

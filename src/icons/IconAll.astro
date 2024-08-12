@@ -1,0 +1,31 @@
+---
+import IconHtml from '../icons/IconHtml.astro'
+import IconCss from '../icons/IconCss.astro'
+import IconAstro from './IconAstro.astro'
+import IconGit from './IconGit.astro'
+import IconGitHub from './IconGitHub.astro'
+import IconJavaScript from './IconJavaScript.astro'
+import IconReact from './IconReact.astro'
+import IconTypeScript from './IconTypeScript.astro'
+import IconPostgress from './IconPostgress.astro'
+import IconSpring from './IconSpring.astro'
+type IconName = 'html' | 'css' | 'astro' | 'git' | 'github' | 'javaScript' | 'react' | 'typeScript' | 'postgress' |'springboot';
+
+export const ICONS = {
+    html: IconHtml,
+    css: IconCss,
+    astro: IconAstro,
+    git: IconGit,
+    github:IconGitHub,
+    javaScript:IconJavaScript,
+    react:IconReact,
+    typeScript:IconTypeScript,
+    postgress:IconPostgress,
+    springboot:IconSpring,
+    
+};
+
+export function getIconComponent(iconName: IconName){
+    return ICONS[iconName] || null;
+}
+---
